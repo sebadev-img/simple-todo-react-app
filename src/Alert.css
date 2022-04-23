@@ -1,0 +1,17 @@
+.alert-container {
+  position: fixed;
+  top: 0;
+  width: 200px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 2px;
+}
+
+.alert-container.succes {
+  background-color: #b9f48c;
+}
+
+.alert-container.danger {
+  background-color: #d24444;
+}
